@@ -85,13 +85,79 @@ input , textarea{font-family:"Microsoft Yahei"; color:#999; font-size:16px;}
 .join{ width:1250px; margin:0px auto; padding:20px 0 50px; position:relative;}
 .join .ye1{ width:135px; height:145px; background:url(../images/ye1.png) no-repeat; position:absolute; left:-100px; top:20px; z-index:0;}
 .join .ye2{ width:83px; height:79px; background:url(../images/ye2.png) no-repeat; position:absolute; left:620px; top:200px; z-index:0;}
-.join dl{ width:100%;}
-.join dl dt{ width:532px; height:349px; float:right; margin-top:5px;}
-.join dl dt img{ width:532px; height:349px; vertical-align:top;}
-.join dl dd{ width:670px; float:left; text-align:left;}
-.join dl dd .title{ width:100%; font-size:28px; color:#d80000; font-weight:bold;}
-.join dl dd .title span{ font-size:22px; color:#2E2E2E; margin-left:10px;}
-.join dl dd p{ font-size:14px; color:#9d9c9c; line-height:170%; margin-top:30px;}
+#joinConditionContent dl{ width:100%;}
+#joinConditionContent dl dt{ width:532px; height:349px; float:right; margin-top:5px;}
+#joinConditionContent dl dt img{ width:532px; height:349px; vertical-align:top;}
+#joinConditionContent dl dd{ width:670px; float:left; text-align:left;}
+#joinConditionContent dl dd .title{ width:100%; font-size:28px; color:#d80000; font-weight:bold;}
+#joinConditionContent dl dd .title span{ font-size:22px; color:#2E2E2E; margin-left:10px;}
+#joinConditionContent dl dd p{ font-size:14px; color:#9d9c9c; line-height:170%; margin-top:30px;}
+#joinAdvantageContent dl{ width:100%;}
+#joinAdvantageContent dl dt {margin: 0 auto;/margin-top: calc(50vh - 349px);width: 532px;  color:#d80000; font-weight:bold;font-size:35px;}
+#joinAdvantageContent dl dt span{ font-size:30px; color:#2E2E2E; margin-left:10px;}
+#joinAdvantageContent dl dd {margin-top: 20px;display: flex;justify-content: space-between;}
+.image-item {text-align: center;width: 4.48cm;}
+.image-item img {width: 4.48cm;height: 4.41cm;object-fit: cover;}
+.image-item p {font-family: SimHei; /* 黑体 */font-size: 26px;margin-top: 10px;}
+.center-title{margin: 0 auto;top: 349px;width: 532px;  color:#d80000; font-weight:bold;font-size:35px;}
+.center-title span{ font-size:30px; color:#2E2E2E; margin-left:10px;}
+/* 整体容器样式 */
+#joinProcessContent {
+  text-align: center;
+  padding: 20px;
+}
+/* 图片行样式 */
+.image-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+/* 图片盒子样式 */
+.image-box {
+   width: 200px;
+   height: 200px;
+   background-color: #ccc; /* 设置背景颜色为灰色 */
+   position: relative;
+   margin: 0 10px;
+   border: none; /* 去除边框 */
+   border-radius: 10px; /* 打磨棱角，设置圆角 */
+ }
+/* 图片内标题样式 */
+.image-title {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 19px;
+  font-weight: bold;
+  color: black;
+  font-family: SimHei; /* 标题字体改为黑体 */
+  padding: 5px;
+}
+/* 图片内正文样式 */
+.image-text {
+  position: absolute;
+  top: 40px;
+  left: 10px;
+  font-size: 18px;
+  font-family: SimHei; /* 正文字体改为黑体 */
+  color: black;
+  padding: 5px;
+  text-align: left; /* 正文部分全部靠左 */
+}
+/* 箭头样式 */
+.arrow {
+  width: 30px;
+  height: 30px;
+}
+/* 右箭头样式 */
+.right-arrow {
+  transform: rotate(0deg);
+}
+/* 左箭头样式 */
+.left-arrow {
+  transform: rotate(180deg);
+}
 .jstore{ width:1250px; margin:0px auto; padding:20px 0 80px;}
 .jstore .left{ width:330px; float:left; text-align:left;}
 .jstore .left .js_la{ width:268px; padding:20px 30px; height:180px; border:1px solid #5E5D5D; background:url(../images/jstore.jpg) no-repeat left bottom;}
